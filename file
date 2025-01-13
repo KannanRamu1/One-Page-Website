@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My One-Page Website</h1>
+        <p>This is where I would a short description about my website and it's contents.</p>
+    </section>
+
+   <!-- Pictures Section -->
+<section id="pictures">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Description of image 1" class="thumbnail" data-large="image1.jpg">
+        <img src="image2.jpg" alt="Description of image 2" class="thumbnail" data-large="image2.jpg">
+        <img src="image3.jpg" alt="Description of image 3" class="thumbnail" data-large="image3.jpg">
+    </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <span id="close-lightbox">&times;</span>
+    <img id="lightbox-image" src="" alt="Lightbox Image">
+</div>
+
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+        <h2>Watch My Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My One-Page Website</p>
+    </footer>
+
+</body>
+</html>
